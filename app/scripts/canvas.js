@@ -137,6 +137,7 @@ var init = function() {
         }
         //ctx.fillStyle = "rgba(255,255,255,1)";
         //for (i = u.trace.length; i--;) ctx.fillRect(targetPoints[i][0], targetPoints[i][1], 2, 2);
+
         window.requestAnimationFrame(loop, canvas);
     };
     loop();
